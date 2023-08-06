@@ -47,4 +47,14 @@ public:
     {
         return KeyList.size();
     }
+
+    U first()
+    {
+       return(ValList.get(0));
+    }
+
+    T firstKey()
+    {
+       return(KeyList.get(0));
+    }
 };
